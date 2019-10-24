@@ -1,5 +1,5 @@
 def insertion_sort_recursive(_list: list) -> list:
-    """ Recursively implements insertion sort algorithm """
+    """ Recursively implements insertion sort algorithm. Difficulty is O(n**2)"""
     if len(_list) == 1:
         return _list
     else:

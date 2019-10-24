@@ -25,7 +25,7 @@ def merge(_list, begin, middle, end):
 
 
 def merge_sort(_list, begin, end):
-    """ Recursively divides and merges list with 'merge' function """
+    """ Recursively divides and merges list with 'merge' function. Difficulty is O(n*lg(n)) """
     if begin < end:
         middle = divmod((begin + end), 2)[0]
         merge_sort(_list, begin, middle)

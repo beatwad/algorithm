@@ -3,7 +3,7 @@ from binary_search import binary_search_recursive
 
 
 def search_for_two_values(_list, _sum):
-    """ Search in list for two items whose sum is equal to parameter _sum """
+    """ Search in list for two items whose sum is equal to parameter _sum. Difficulty is O(n*lg(n)) """
     # sort list by merge sort
     sorted_list = _list[:]
     merge_sort(sorted_list, 0, len(sorted_list)-1)
