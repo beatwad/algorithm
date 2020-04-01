@@ -12,6 +12,7 @@ def binary_search_recursive(_list, begin, end, value):
     else:
         return binary_search_recursive(_list, begin, middle, value)
 
+x = 'dfasfs'
 
 if __name__ == '__main__':
     _list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
